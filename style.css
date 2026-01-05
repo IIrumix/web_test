@@ -1,0 +1,102 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10000px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: lightslategrey;
+    gap: 10px;
+}
+.movieBannerContainer{
+    width: 99%;
+    height: 6%;
+    background-color: lightpink;
+    margin: 1%;
+    position: relative;
+}
+.movieBanner{
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    border-radius: 20px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.moviePosterAndDataContainer{
+    display: flex;
+    flex-direction: row;
+    width: 99%;
+    height: 5%;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+}
+.moviePosterAndDataContainer > div{
+    margin-left: 10px;
+}
+
+.moviePosterContainer{
+    width: 30%;
+    display: flex;
+    justify-content: right;
+    background-color: lightblue;
+    
+}
+.moviePoster{
+    width: 40%;
+    height: auto;
+    background-color: lightgray;
+    margin-top: 5%;
+    margin-bottom: auto;
+    position: relative;
+}
+.movieDataContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(18, 60, 18);
+    width: 50%;
+    height: auto;
+    justify-content: start;
+    align-items: start;
+}
+.movieDataHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',Helvetica, Arial,  sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.movieData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',Helvetica, Arial,  sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
